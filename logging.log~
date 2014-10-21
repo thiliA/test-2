@@ -1,0 +1,43 @@
+random 100 
+
+0    [main] DEBUG org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413796725264
+56466 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413796725264
+56466 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413796781732
+56466 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:0:56
+56466 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - All Join events - 10093510
+56466 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+56466 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+
+random 1000
+0    [main] DEBUG org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413796891545
+59137 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413796891545
+59137 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413796950683
+59137 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:0:59
+59137 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - All Join events - 1101545
+59138 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+59138 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+
+random 10000
+0    [main] DEBUG org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413797087522
+64371 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413797087522
+64372 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413797151895
+64372 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:1:4
+64372 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - All Join events - 200241
+64372 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+64372 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+
+random 100000
+0    [main] DEBUG org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413797213897
+97830 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413797213897
+97831 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413797311728
+97831 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:1:37
+97831 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - All Join events - 110050
+97831 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+97831 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+0    [main] DEBUG org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413799409965
+537  [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413799409965
+538  [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413799410502
+538  [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:0:0
+538  [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - All Join events - 100
+538  [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 
+538  [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - 

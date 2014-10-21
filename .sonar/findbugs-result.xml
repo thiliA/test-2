@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1413738833000" analysisTimestamp="1413738854279" release="">
+  <Project>
+    <Jar>/home/dhanushka/project_workspace/Final/CustomWindow/bin/org/wso2/siddhi/query/CBFBasedWindowTest.class</Jar>
+    <Jar>/home/dhanushka/project_workspace/Final/CustomWindow/bin/org/wso2/siddhi/query/TestGenerator.class</Jar>
+    <Jar>/home/dhanushka/project_workspace/Final/CustomWindow/bin/org/wso2/siddhi/query/SimpleWindow.class</Jar>
+    <Jar>/home/dhanushka/project_workspace/Final/CustomWindow/bin/org/wso2/siddhi/query/CBFBasedWindow.class</Jar>
+    <Jar>/home/dhanushka/project_workspace/Final/CustomWindow/bin/org/wso2/siddhi/query/SimpleWindowTest.class</Jar>
+    <Jar>/home/dhanushka/project_workspace/Final/CustomWindow/bin/org/wso2/siddhi/query/SiddhiEvent.class</Jar>
+    <AuxClasspathEntry>/home/dhanushka/project_workspace/Final/CustomWindow/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dhanushka/project_workspace/Final/CustomWindow/./.sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dhanushka/project_workspace/Final/CustomWindow/./.sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <SrcDir>/home/dhanushka/project_workspace/Final/CustomWindow/src/main</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" instanceHash="50e9669c6ca3a98de7022f5f29a48be" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="19">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in org.wso2.siddhi.query.CBFBasedWindow.addEvent(Event): String.getBytes()</LongMessage>
+    <Class classname="org.wso2.siddhi.query.CBFBasedWindow" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" start="39" end="142" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java">
+        <Message>At CBFBasedWindow.java:[lines 39-142]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.CBFBasedWindow</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.CBFBasedWindow" name="addEvent" signature="(Lorg/wso2/siddhi/core/event/Event;)V" isStatic="false" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" start="77" end="86" startBytecode="0" endBytecode="224" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java"/>
+      <Message>In method org.wso2.siddhi.query.CBFBasedWindow.addEvent(Event)</Message>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="986" end="986" startBytecode="0" endBytecode="39" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+      <Message>Called method String.getBytes()</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" primary="true" start="80" end="80" startBytecode="68" endBytecode="68" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java">
+      <Message>At CBFBasedWindow.java:[line 80]</Message>
+    </SourceLine>
+    <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" start="83" end="83" startBytecode="103" endBytecode="103" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at CBFBasedWindow.java:[line 83]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" instanceHash="b15a9a60b5daaf0b387d3341e40b34a1" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="19">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in org.wso2.siddhi.query.CBFBasedWindow.joinEvent(Event, int, int): String.getBytes()</LongMessage>
+    <Class classname="org.wso2.siddhi.query.CBFBasedWindow" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" start="39" end="142" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java">
+        <Message>At CBFBasedWindow.java:[lines 39-142]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.CBFBasedWindow</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.CBFBasedWindow" name="joinEvent" signature="(Lorg/wso2/siddhi/core/event/Event;II)V" isStatic="false" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" start="98" end="110" startBytecode="0" endBytecode="269" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java"/>
+      <Message>In method org.wso2.siddhi.query.CBFBasedWindow.joinEvent(Event, int, int)</Message>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="986" end="986" startBytecode="0" endBytecode="39" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+      <Message>Called method String.getBytes()</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" primary="true" start="98" end="98" startBytecode="12" endBytecode="12" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java">
+      <Message>At CBFBasedWindow.java:[line 98]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" abbrev="ICAST" category="STYLE" instanceHash="319ab6c0cb6cc93b05493f50e92a4f79" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="17" cweid="192">
+    <ShortMessage>Integral division result cast to double or float</ShortMessage>
+    <LongMessage>Integral division result cast to double or float in org.wso2.siddhi.query.CBFBasedWindow.optimalNoOfHash(int, long)</LongMessage>
+    <Class classname="org.wso2.siddhi.query.CBFBasedWindow" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" start="39" end="142" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java">
+        <Message>At CBFBasedWindow.java:[lines 39-142]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.CBFBasedWindow</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.CBFBasedWindow" name="optimalNoOfHash" signature="(IJ)I" isStatic="true" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" start="142" end="142" startBytecode="0" endBytecode="68" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java"/>
+      <Message>In method org.wso2.siddhi.query.CBFBasedWindow.optimalNoOfHash(int, long)</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindow" primary="true" start="142" end="142" startBytecode="4" endBytecode="4" sourcefile="CBFBasedWindow.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindow.java" relSourcepath="org/wso2/siddhi/query/CBFBasedWindow.java">
+      <Message>At CBFBasedWindow.java:[line 142]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" instanceHash="fdf56b3cf88bc25d31f6c2150f43e9e3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="19">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in org.wso2.siddhi.query.CBFBasedWindowTest.main(String[]): new java.io.FileReader(String)</LongMessage>
+    <Class classname="org.wso2.siddhi.query.CBFBasedWindowTest" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindowTest" start="27" end="111" sourcefile="CBFBasedWindowTest.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindowTest.java">
+        <Message>At CBFBasedWindowTest.java:[lines 27-111]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.CBFBasedWindowTest</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.CBFBasedWindowTest" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindowTest" start="33" end="111" startBytecode="0" endBytecode="1365" sourcefile="CBFBasedWindowTest.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindowTest.java"/>
+      <Message>In method org.wso2.siddhi.query.CBFBasedWindowTest.main(String[])</Message>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="41" end="42" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+      <Message>Called method new java.io.FileReader(String)</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindowTest" primary="true" start="48" end="48" startBytecode="47" endBytecode="47" sourcefile="CBFBasedWindowTest.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindowTest.java">
+      <Message>At CBFBasedWindowTest.java:[line 48]</Message>
+    </SourceLine>
+    <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindowTest" start="49" end="49" startBytecode="64" endBytecode="64" sourcefile="CBFBasedWindowTest.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindowTest.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at CBFBasedWindowTest.java:[line 49]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NS_DANGEROUS_NON_SHORT_CIRCUIT" priority="1" abbrev="NS" category="STYLE" instanceHash="782362befdb2cb0a9a66cc563e8a3237" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="15">
+    <ShortMessage>Potentially dangerous use of non-short-circuit logic</ShortMessage>
+    <LongMessage>Potentially dangerous use of non-short-circuit logic in org.wso2.siddhi.query.CBFBasedWindowTest.main(String[])</LongMessage>
+    <Class classname="org.wso2.siddhi.query.CBFBasedWindowTest" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindowTest" start="27" end="111" sourcefile="CBFBasedWindowTest.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindowTest.java">
+        <Message>At CBFBasedWindowTest.java:[lines 27-111]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.CBFBasedWindowTest</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.CBFBasedWindowTest" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindowTest" start="33" end="111" startBytecode="0" endBytecode="1365" sourcefile="CBFBasedWindowTest.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindowTest.java"/>
+      <Message>In method org.wso2.siddhi.query.CBFBasedWindowTest.main(String[])</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.CBFBasedWindowTest" primary="true" start="51" end="51" startBytecode="262" endBytecode="262" sourcefile="CBFBasedWindowTest.java" sourcepath="org/wso2/siddhi/query/CBFBasedWindowTest.java">
+      <Message>At CBFBasedWindowTest.java:[line 51]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" instanceHash="1c94d175ce20248b22f0c544c74e72d3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="19">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in org.wso2.siddhi.query.SimpleWindowTest.main(String[]): new java.io.FileReader(String)</LongMessage>
+    <Class classname="org.wso2.siddhi.query.SimpleWindowTest" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.SimpleWindowTest" start="28" end="106" sourcefile="SimpleWindowTest.java" sourcepath="org/wso2/siddhi/query/SimpleWindowTest.java">
+        <Message>At SimpleWindowTest.java:[lines 28-106]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.SimpleWindowTest</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.SimpleWindowTest" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.SimpleWindowTest" start="33" end="106" startBytecode="0" endBytecode="1342" sourcefile="SimpleWindowTest.java" sourcepath="org/wso2/siddhi/query/SimpleWindowTest.java"/>
+      <Message>In method org.wso2.siddhi.query.SimpleWindowTest.main(String[])</Message>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="41" end="42" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+      <Message>Called method new java.io.FileReader(String)</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.SimpleWindowTest" primary="true" start="45" end="45" startBytecode="39" endBytecode="39" sourcefile="SimpleWindowTest.java" sourcepath="org/wso2/siddhi/query/SimpleWindowTest.java">
+      <Message>At SimpleWindowTest.java:[line 45]</Message>
+    </SourceLine>
+    <SourceLine classname="org.wso2.siddhi.query.SimpleWindowTest" start="46" end="46" startBytecode="56" endBytecode="56" sourcefile="SimpleWindowTest.java" sourcepath="org/wso2/siddhi/query/SimpleWindowTest.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at SimpleWindowTest.java:[line 46]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NS_DANGEROUS_NON_SHORT_CIRCUIT" priority="1" abbrev="NS" category="STYLE" instanceHash="dac22ff8e1a864b29a53e3dbb7ce0642" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="15">
+    <ShortMessage>Potentially dangerous use of non-short-circuit logic</ShortMessage>
+    <LongMessage>Potentially dangerous use of non-short-circuit logic in org.wso2.siddhi.query.SimpleWindowTest.main(String[])</LongMessage>
+    <Class classname="org.wso2.siddhi.query.SimpleWindowTest" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.SimpleWindowTest" start="28" end="106" sourcefile="SimpleWindowTest.java" sourcepath="org/wso2/siddhi/query/SimpleWindowTest.java">
+        <Message>At SimpleWindowTest.java:[lines 28-106]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.SimpleWindowTest</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.SimpleWindowTest" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.SimpleWindowTest" start="33" end="106" startBytecode="0" endBytecode="1342" sourcefile="SimpleWindowTest.java" sourcepath="org/wso2/siddhi/query/SimpleWindowTest.java"/>
+      <Message>In method org.wso2.siddhi.query.SimpleWindowTest.main(String[])</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.SimpleWindowTest" primary="true" start="48" end="48" startBytecode="255" endBytecode="255" sourcefile="SimpleWindowTest.java" sourcepath="org/wso2/siddhi/query/SimpleWindowTest.java">
+      <Message>At SimpleWindowTest.java:[line 48]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" instanceHash="e4e4ecbed308da767b38acc2b649f1e6" instanceOccurrenceNum="0" instanceOccurrenceMax="0" rank="19">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in org.wso2.siddhi.query.TestGenerator.main(String[]): new java.io.FileWriter(String, boolean)</LongMessage>
+    <Class classname="org.wso2.siddhi.query.TestGenerator" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.TestGenerator" start="36" end="103" sourcefile="TestGenerator.java" sourcepath="org/wso2/siddhi/query/TestGenerator.java">
+        <Message>At TestGenerator.java:[lines 36-103]</Message>
+      </SourceLine>
+      <Message>In class org.wso2.siddhi.query.TestGenerator</Message>
+    </Class>
+    <Method classname="org.wso2.siddhi.query.TestGenerator" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="org.wso2.siddhi.query.TestGenerator" start="44" end="103" startBytecode="0" endBytecode="842" sourcefile="TestGenerator.java" sourcepath="org/wso2/siddhi/query/TestGenerator.java"/>
+      <Message>In method org.wso2.siddhi.query.TestGenerator.main(String[])</Message>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="61" end="62" startBytecode="0" endBytecode="41" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+      <Message>Called method new java.io.FileWriter(String, boolean)</Message>
+    </Method>
+    <SourceLine classname="org.wso2.siddhi.query.TestGenerator" primary="true" start="67" end="67" startBytecode="103" endBytecode="103" sourcefile="TestGenerator.java" sourcepath="org/wso2/siddhi/query/TestGenerator.java">
+      <Message>At TestGenerator.java:[line 67]</Message>
+    </SourceLine>
+    <SourceLine classname="org.wso2.siddhi.query.TestGenerator" start="73" end="73" startBytecode="129" endBytecode="129" sourcefile="TestGenerator.java" sourcepath="org/wso2/siddhi/query/TestGenerator.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at TestGenerator.java:[line 73]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="STYLE">
+    <Description>Dodgy code</Description>
+  </BugCategory>
+  <BugCategory category="I18N">
+    <Description>Internationalization</Description>
+  </BugCategory>
+  <BugPattern type="DM_DEFAULT_ENCODING" abbrev="Dm" category="I18N">
+    <ShortDescription>Reliance on default encoding</ShortDescription>
+    <Details><![CDATA[
+
+<p> Found a call to a method which will perform a byte to String (or String to byte) conversion, and will assume that the default platform encoding is suitable. This will cause the application behaviour to vary between platforms. Use an alternative API and specify a charset name or Charset object explicitly.  </p>
+
+      ]]></Details>
+  </BugPattern>
+  <BugPattern type="NS_DANGEROUS_NON_SHORT_CIRCUIT" abbrev="NS" category="STYLE">
+    <ShortDescription>Potentially dangerous use of non-short-circuit logic</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code seems to be using non-short-circuit logic (e.g., &amp;
+or |)
+rather than short-circuit logic (&amp;&amp; or ||). In addition,
+it seem possible that, depending on the value of the left hand side, you might not
+want to evaluate the right hand side (because it would have side effects, could cause an exception
+or could be expensive.</p>
+<p>
+Non-short-circuit logic causes both sides of the expression
+to be evaluated even when the result can be inferred from
+knowing the left-hand side. This can be less efficient and
+can result in errors if the left-hand side guards cases
+when evaluating the right-hand side can generate an error.
+</p>
+
+<p>See <a href="http://java.sun.com/docs/books/jls/third_edition/html/expressions.html#15.22.2">the Java
+Language Specification</a> for details
+
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="ICAST_IDIV_CAST_TO_DOUBLE" abbrev="ICAST" category="STYLE">
+    <ShortDescription>Integral division result cast to double or float</ShortDescription>
+    <Details><![CDATA[
+
+<p>
+This code casts the result of an integral division (e.g., int or long division)
+operation to double or
+float.
+Doing division on integers truncates the result
+to the integer value closest to zero.  The fact that the result
+was cast to double suggests that this precision should have been retained.
+What was probably meant was to cast one or both of the operands to
+double <em>before</em> performing the division.  Here is an example:
+</p>
+<blockquote>
+<pre>
+int x = 2;
+int y = 5;
+// Wrong: yields result 0.0
+double value1 =  x / y;
+
+// Right: yields result 0.4
+double value2 =  x / (double) y;
+</pre>
+</blockquote>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="ICAST" cweid="192">
+    <Description>Casting from integer values</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <BugCode abbrev="NS">
+    <Description>Suspicious use of non-short-circuit boolean operator</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="5">
+    <MissingClass>org.apache.hadoop.util.bloom.CountingBloomFilter</MissingClass>
+    <MissingClass>org.apache.hadoop.util.bloom.Key</MissingClass>
+    <MissingClass>org.apache.log4j.Logger</MissingClass>
+    <MissingClass>org.apache.log4j.PropertyConfigurator</MissingClass>
+    <MissingClass>org.wso2.siddhi.core.event.Event</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sun, 19 Oct 2014 22:43:53 +0530" total_classes="6" referenced_classes="32" total_bugs="8" total_size="242" num_packages="1" vm_version="20.7-b02" cpu_seconds="19.61" clock_seconds="6.55" peak_mbytes="364.33" alloc_mbytes="1751.12" gc_seconds="0.03" priority_2="1" priority_1="7">
+    <FileStats path="org/wso2/siddhi/query/CBFBasedWindow.java" bugCount="3" size="45" bugHash="b9fb5809a26076458154d90e2de28c6f"/>
+    <FileStats path="org/wso2/siddhi/query/CBFBasedWindowTest.java" bugCount="2" size="51" bugHash="dbe8ee8f7bb2c3e2a32e510b0ac24685"/>
+    <FileStats path="org/wso2/siddhi/query/SiddhiEvent.java" bugCount="0" size="4"/>
+    <FileStats path="org/wso2/siddhi/query/SimpleWindow.java" bugCount="0" size="41"/>
+    <FileStats path="org/wso2/siddhi/query/SimpleWindowTest.java" bugCount="2" size="49" bugHash="87681904e1cac6b521aa106d094ddf82"/>
+    <FileStats path="org/wso2/siddhi/query/TestGenerator.java" bugCount="1" size="52" bugHash="220b71c4ef734309e9ddde5a94ed1ca7"/>
+    <PackageStats package="org.wso2.siddhi.query" total_bugs="8" total_types="6" total_size="242" priority_2="1" priority_1="7">
+      <ClassStats class="org.wso2.siddhi.query.CBFBasedWindow" sourceFile="CBFBasedWindow.java" interface="false" size="45" bugs="3" priority_2="1" priority_1="2"/>
+      <ClassStats class="org.wso2.siddhi.query.CBFBasedWindowTest" sourceFile="CBFBasedWindowTest.java" interface="false" size="51" bugs="2" priority_1="2"/>
+      <ClassStats class="org.wso2.siddhi.query.SiddhiEvent" sourceFile="SiddhiEvent.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="org.wso2.siddhi.query.SimpleWindow" sourceFile="SimpleWindow.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="org.wso2.siddhi.query.SimpleWindowTest" sourceFile="SimpleWindowTest.java" interface="false" size="49" bugs="2" priority_1="2"/>
+      <ClassStats class="org.wso2.siddhi.query.TestGenerator" sourceFile="TestGenerator.java" interface="false" size="52" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="512" invocations="358" avgMicrosecondsPerInvocation="1431" maxMicrosecondsPerInvocation="21750" standardDeviationMircosecondsPerInvocation="2826"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="483" invocations="25" avgMicrosecondsPerInvocation="19334" maxMicrosecondsPerInvocation="92619" standardDeviationMircosecondsPerInvocation="29108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="409" invocations="25" avgMicrosecondsPerInvocation="16394" maxMicrosecondsPerInvocation="74814" standardDeviationMircosecondsPerInvocation="23904"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="355" invocations="15" avgMicrosecondsPerInvocation="23707" maxMicrosecondsPerInvocation="41500" standardDeviationMircosecondsPerInvocation="7958"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="302" invocations="32" avgMicrosecondsPerInvocation="9452" maxMicrosecondsPerInvocation="49493" standardDeviationMircosecondsPerInvocation="11925"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="277" invocations="102" avgMicrosecondsPerInvocation="2718" maxMicrosecondsPerInvocation="31507" standardDeviationMircosecondsPerInvocation="3699"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="276" invocations="22" avgMicrosecondsPerInvocation="12558" maxMicrosecondsPerInvocation="79746" standardDeviationMircosecondsPerInvocation="24243"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="213" invocations="22" avgMicrosecondsPerInvocation="9714" maxMicrosecondsPerInvocation="57570" standardDeviationMircosecondsPerInvocation="17565"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="182" invocations="22" avgMicrosecondsPerInvocation="8309" maxMicrosecondsPerInvocation="55756" standardDeviationMircosecondsPerInvocation="14529"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="160" invocations="22" avgMicrosecondsPerInvocation="7277" maxMicrosecondsPerInvocation="44574" standardDeviationMircosecondsPerInvocation="13011"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="116" invocations="22" avgMicrosecondsPerInvocation="5282" maxMicrosecondsPerInvocation="34113" standardDeviationMircosecondsPerInvocation="9581"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="100" invocations="22" avgMicrosecondsPerInvocation="4551" maxMicrosecondsPerInvocation="20930" standardDeviationMircosecondsPerInvocation="7139"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="86" invocations="32" avgMicrosecondsPerInvocation="2704" maxMicrosecondsPerInvocation="21130" standardDeviationMircosecondsPerInvocation="4529"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="84" invocations="32" avgMicrosecondsPerInvocation="2655" maxMicrosecondsPerInvocation="9024" standardDeviationMircosecondsPerInvocation="2629"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="76" invocations="312" avgMicrosecondsPerInvocation="246" maxMicrosecondsPerInvocation="2415" standardDeviationMircosecondsPerInvocation="382"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="71" invocations="32" avgMicrosecondsPerInvocation="2225" maxMicrosecondsPerInvocation="13983" standardDeviationMircosecondsPerInvocation="3137"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="63" invocations="6" avgMicrosecondsPerInvocation="10525" maxMicrosecondsPerInvocation="32411" standardDeviationMircosecondsPerInvocation="12084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="62" invocations="32" avgMicrosecondsPerInvocation="1963" maxMicrosecondsPerInvocation="6399" standardDeviationMircosecondsPerInvocation="1886"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

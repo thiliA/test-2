@@ -1,0 +1,14 @@
+10000000 win size 100000
+
+0    [main] DEBUG org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413793920622
+104512 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413793920622
+104512 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413794025134
+104512 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:1:44
+
+
+
+
+0    [main] DEBUG org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413794106029
+959360 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413794106029
+959360 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413795065390
+959361 [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:15:59

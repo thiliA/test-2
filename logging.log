@@ -1,0 +1,70 @@
+0    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Window type - CBF BASE WINDOW
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - No Of Events - 10000000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Windows Size - 10000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Match Rate - 1%
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Random Number Range - 100000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413866847973
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413866950849
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:1:42
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+0    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Window type - CBF BASE WINDOW
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - No Of Events - 10000000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Windows Size - 10000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Match Rate - 10%
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Random Number Range - 100000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413867310207
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413867722508
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:6:52
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+0    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Window type - CBF BASE WINDOW
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - No Of Events - 10000000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Windows Size - 10000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Match Rate - 20%
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Random Number Range - 100000
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413867802919
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413868450003
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:10:47
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+0    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Window type - SIMPLE WINDOW
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - No Of Events - 10000000
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Windows Size - 10000
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Match Rate - 1%
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Random Number Range - 100000
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413868508050
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413869452827
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:15:44
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+0    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Window type - SIMPLE WINDOW
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - No Of Events - 10000000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Windows Size - 10000
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Match Rate - 10%
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Random Number Range - 100000
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413869589020
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413870998162
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:23:29
+2    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+0    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Window type - SIMPLE WINDOW
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - No Of Events - 10000000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Windows Size - 10000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Match Rate - 20%
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Random Number Range - 100000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413871162752
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413872823082
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:27:40
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+0    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Window type - SIMPLE WINDOW
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - No Of Events - 10000000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Windows Size - 20000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Match Rate - 1%
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Random Number Range - 100000
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Started - 1413873072966
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Ended - 1413875942706
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - Time duration - 0:47:49
+1    [main] INFO  org.wso2.siddhi.query.CBFBasedWindowTest  - ------------------------------------------------
